@@ -2,14 +2,10 @@
 
 For this project, the goal was to develop experience cleaning, formatting, analyzing, and modeling data using pandas in Python.
 
+## Background
 
 
-
-
-Running Logistic Regression Models on Open Source Kickstarter Project data
-
-
-##Installation
+## Installation
 I personally use Anaconda for all of my python package management.
 Packages required for data cleaning and editing are the following
 ```python
