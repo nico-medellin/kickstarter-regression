@@ -44,6 +44,7 @@ See below for a list of attributes the dataset captured as well as issues found 
 
 ## Fixing Missing Values
 ![tracking null values](https://user-images.githubusercontent.com/82164437/115604072-ef6f7380-a2ae-11eb-9e3f-c1afe9a1a831.PNG)
+
 Missing Pledged Values could easily be calculated by using Pledged Amount data and funded percentage.
 Given our limited dataset, it was impossible to deduce location and reward levels from given data, therefore, those entries were removed from our data set.
 (1,381 values out of 45,957 dataset, ~3% of the entire dataset)
