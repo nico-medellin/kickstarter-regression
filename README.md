@@ -12,7 +12,7 @@ Running Logistic Regression Models on Open Source Kickstarter Project data
 ##Installation
 I personally use Anaconda for all of my python package management.
 Packages required for data cleaning and editing are the following
-```
+```python
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
