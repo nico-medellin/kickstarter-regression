@@ -49,7 +49,25 @@ Missing Pledged Values could easily be calculated by using Pledged Amount data a
 Given our limited dataset, it was impossible to deduce location and reward levels from given data, therefore, those entries were removed from our data set.
 (1,381 values out of 45,957 dataset, ~3% of the entire dataset)
 
-## Analysis
+## Step 2: Training the Model
+A quick background on logistic regression, essentially you have a statistical model decide how important a specific attribute of your data is in predicting an output. i.e. How important is a project's category when it comes to predicting the success of a kickstarter project.
+
+A more in-depth description can be found here: [Link](https://medium.com/swlh/what-is-logistic-regression-62807de62efa)
+
+I essentially wanted to figure out what properties of a project determine if a kickstart project will be successful or not. 
+
+To start, I removed atributes that I believed did not have an impact on project success or the attribute's impact would be hard to measure. For example, while a catchy project name might help drive traffic to a project, there is currently no way for me to quantify "how good" a project name is given my current skillset.
+
+Here's a list of the following attributes I removed:
+- Project ID 
+  - Removed since project ID are solely used for database purposes
+- Project Name
+  - Difficult to quanitfy the impact of a project name
+- Project URL
+  - Removed since project url is just a reflection of project name
+- Funded Time
+  - This attribute is determined after an project is finished, which means it would do a poor job of predicting project success
+
 
 
 ## Installation
