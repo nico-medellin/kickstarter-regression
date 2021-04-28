@@ -1,5 +1,7 @@
 # Data Cleaning and Logistic Regression on Public Kickstarter Data
 
+Testing to see if github is actually working
+
 For this project, the goal was to develop experience cleaning, formatting, analyzing, and modeling data using pandas and scikit-learn in Python.
 
 ## Background
