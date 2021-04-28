@@ -69,6 +69,10 @@ Here's a list of the following attributes I removed:
   - This attribute is determined after an project is finished, which means it would do a poor job of predicting project success
 
 
+## Results:
+Removing the number of backer parameter from our model decreases our accuracy from 92% to 83%, this somewhat expected given the large importance of the number of backers in the original logistic regression model.
+
+
 
 ## Installation
 I personally use Anaconda for all of my python package management.
