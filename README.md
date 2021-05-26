@@ -67,10 +67,26 @@ Here's a list of the following attributes I removed:
   - Removed since project url is just a reflection of project name
 - Funded Time
   - This attribute is determined after an project is finished, which means it would do a poor job of predicting project success
+ - Funded Percentage, Funding Raised
+  - I removed these because these attributes actually measure how successful a project is. Including these would lead to skewed results
+  -
 
 
 ## Results:
 Removing the number of backer parameter from our model decreases our accuracy from 92% to 83%, this somewhat expected given the large importance of the number of backers in the original logistic regression model.
+
+Here are the results for the initial model that included backers:
+
+                       precision   recall  f1-score   support
+
+           Failed        0.89      0.90      0.90      3696
+           Success       0.92      0.91      0.91      4424
+
+    accuracy                       0.91      8120
+   macro avg             0.90      0.91      0.91      8120
+weighted avg             0.91      0.91      0.91      8120
+
+
 
 
 
