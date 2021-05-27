@@ -83,8 +83,8 @@ Here are the results for the initial model that included backers:
            Success       0.92      0.91      0.91      4424
 
     accuracy                       0.91      8120
-   macro avg             0.90      0.91      0.91      8120
-weighted avg             0.91      0.91      0.91      8120
+    macro avg            0.90      0.91      0.91      8120
+    weighted avg         0.91      0.91      0.91      8120
 
 
 
