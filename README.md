@@ -75,6 +75,8 @@ Here's a list of the following attributes I removed:
   - Category is highly correlated with sub-categories so I decided to keep sub-categories rather than category as it offers more granular details on projects.
 
 
+#### Selection of Logistic Regression Model
+
 ## Results:
 Removing the number of backer parameter from our model decreases our accuracy from 92% to 83%, this somewhat expected given the large importance of the number of backers in the original logistic regression model.
 
@@ -129,6 +131,10 @@ The model with backers outperforming the model without backers is not surprising
 For this reason, my recommendation is to use the model without backers for prediction purposes because the inputs of that model are all inputs that the project owner has more control over (things like subcategory, goal amount, updates, etc.)
 
 
+### Weights assigned to Attributes
+The below is a sorted list of the logistic regression coefficients from our two models. Positive weights have a positive impact on project success while negative weights have the opposite effect.
+
+A good way to think about weights is to compare them to one another. For example, if something has a weight of 1 and another attribute has a weight of 2, we can estimate that the attribute with a 2 has double the impact on success rate
 
 
 
